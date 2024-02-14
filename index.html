@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noon Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body class="bg-c-body">
+    <!-- navbar started -->
+    <header class="flex-wrap">
+        <div class="d-flex align-center navbar-padding justify-between bg-c">
+            <div class="cursor">
+                <img src="https://f.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg" height="24px" alt="no-image">
+            </div>
+            <div class="d-flex gap cursor">
+                <img src="https://f.nooncdn.com/s/app/com/common/images/flags/ae.svg" alt="">
+                    <p>Deliver to <select class="select cursor" name="" id=""></select></p>
+                    <b>Dubai</b> 
+            </div>
+            <div>
+                <input id="input-width" type="text" placeholder="What are you looking for?" size="110">
+            </div>
+           
+            <div class="cursor">
+                <div><b>العربية</b></div>
+            </div>
+            
+            <div class="cursor border-r"><b>Log in</b> <i class="fa-regular fa-user"></i></div>
+
+            <div class="cursor border-r"><b>Wishlist</b> <i class="fa-regular fa-heart"></i></div>
+
+            <div class="cursor"><b>Cart</b> <i class="fa-solid fa-cart-shopping"></i></div>
+
+            </div>
+
+
+            <div class="d-flex justify-evenly align-center border cursor">
+            <p class="catogory-color"><b>All Categories</b> <select class="catogory-color cursor" name="" id=""></select></p>
+            <p><b>ELECTRONICS</b></p>
+            <p><b>MEN</b></p>
+            <p><b>WOMEN</b></p>
+            <p><b>HOME</b></p>
+            <p><b>BEAUTY & FRAGRANCE</b></p>
+            <p><b>BABY</b></p>
+            <p><b>TOYS</b></p>
+            <p><b>SPORTS</b></p>
+            <p><b>HEALTH & NUTRITION</b></p>
+            <p><b>BESTSELLERS</b></p>
+            <p><b>SELL ON NOON</b></p>
+        <p><img src="data:image/jpeg;base64,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" alt=""></</p>
+        </div>           
+
+        <!-- navbar ended -->
+
+        <!-- carousel area started -->
+        <nav>
+        <div>
+            <img src="https://f.nooncdn.com/mpcms/EN0001/assets/0a73af00-c851-45b8-b23f-f2e7c8f5dca4.png?format=avif" alt="" width="100%">
+        </div>
+
+        <div class="d-flex"> 
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://f.nooncdn.com/ads/banner-1008x1008/en_dk_uae-hero-01-hp.1706855858.182605.png?format=avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://f.nooncdn.com/mpcms/EN0002/assets/aac48369-b009-4b8b-ad11-b402928bb756.png?format=avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://f.nooncdn.com/mpcms/EN0001/assets/83b71291-65f5-4fcc-8db8-a72d91b32426.jpg?format=avif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+              </div>
+
+              <div class="d-flex">
+                <img src="https://f.nooncdn.com/mpcms/EN0001/assets/9fa77bc4-04be-47ec-a433-42126343092c.png?format=avif" alt="" width="225px">
+                <img src="https://f.nooncdn.com/mpcms/EN0001/assets/aeca53b5-4d64-4733-a911-0143b32ce237.png?format=avif" alt="" width="220px">
+              </div>
+
+            </div>
+
+
+            <div class="bg-c-pink img-12-padding">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/8a18e2f7-ae5b-4f3b-8db9-3292d456f8a3.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/c1782b69-77a1-4b9a-b345-c939740be9c9.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/ea0c9b64-a980-4e5f-a76b-ad3078087956.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/ff1d9c34-d671-40ff-b47c-d354e03fc0ee.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/376a89b1-2a30-4e04-b6c1-bf79ca5bb1f8.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/f6342c6e-e0b5-4412-9519-77677dc240af.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/13063a91-fd15-4e27-9fca-8296f649f492.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/58972bc4-3b86-46fa-8e21-386e377907e5.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/ce930a17-6988-4409-a751-bca03f7f6b32.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/53d4fb22-5809-4a8a-aee4-35c8449d911e.png?format=avif" alt="" width="7%">
+              <img src="https://f.nooncdn.com/mpcms/EN0001/assets/f7f7b677-559c-42ae-b5fe-1dfe8c581964.png?format=avif" alt="" width="7%">
+
+            </div>
+
+            <!-- carousel area ended -->
+
+            <!-- ten img started -->
+
+            <div class="ten-img-in-four-img">
+              <div>
+                <p>More reasons to shop</p>
+                <img src="https://f.nooncdn.com/mpcms/EN0001/assets/d5ea7157-ef25-4dcd-bfdb-167e97b8923f.png?format=avif" alt="" width="12%">
+                <img src="https://f.nooncdn.com/mpcms/EN0001/assets/d5ea7157-ef25-4dcd-bfdb-167e97b8923f.png?format=avif" alt="" width="12%">
+               </div>
+               <div>
+                <img src="https://f.nooncdn.com/mpcms/EN0001/assets/d5ea7157-ef25-4dcd-bfdb-167e97b8923f.png?format=avif" alt="" width="12%">
+                <img src="https://f.nooncdn.com/mpcms/EN0001/assets/d5ea7157-ef25-4dcd-bfdb-167e97b8923f.png?format=avif" alt="" width="12%">
+               </div>
+            </div>
+
+            
+
+          </nav>
+
+
+
+
+        <i id="icon" class="fa-solid fa-bars"></i>
+    </header>
+    <script src="https://kit.fontawesome.com/7c9c0ccb94.js" crossorigin="anonymous"></script>   
+</body>
+</html>
